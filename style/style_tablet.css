@@ -55,12 +55,13 @@ body {
     z-index: 5;
 }
 .menu-button {
-    height: 20vh;
+    height: 150px;
     width: 100%;
     border: none;
     border-bottom: 0.15em solid #363B56;
     background-color: rgb(42, 43, 69);
-    padding-top: 1.5em;
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 6em;
     color: white;
