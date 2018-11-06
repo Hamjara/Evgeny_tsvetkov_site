@@ -50,19 +50,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     z-index: 5;
 }
 .menu-button {
-    height: 8vh;
+    height: 20vh;
     width: 100%;
     border: none;
     border-bottom: 0.15em solid #363B56;
     background-color: rgb(42, 43, 69);
     padding-top: 1.5em;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 6em;
     color: white;
     letter-spacing: 0.2em;
     z-index: 5;
@@ -80,13 +80,14 @@ body {
 }
 
 .menu-gs {
-    height: 6vh;
+    height: 20vh;
     width: 100%;
     border: none;
     background-color: white;
-    padding-top: 1.5vh;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 6em;
     color: black;
     letter-spacing: 0.2em;
     z-index: 5;
@@ -101,13 +102,14 @@ body {
 }
 
 .login {
-    height: 6vh;
+    height: 15vh;
     width: 100%;
     border: 0.2em solid white;
     background-color: rgba(42, 43, 69, 0.97);
     padding-top: 1vh;
+    padding-bottom: 1vh;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 6em;
     color: white;
     letter-spacing: 0.2em;
     z-index: 5;
@@ -316,16 +318,17 @@ article {
 }
 
 .img-cont {
-    height: 20vh;
+    height: 30vw;
     width: 100%;
     background-image: url("images/pic06.jpg");
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    overflow: hidden;
 }
 
 article p {
-    font-size: 2em;
+    font-size: 20px;
     padding-top: 1.5em;
 }
 
@@ -355,7 +358,7 @@ main p {
 }
 
 img {
-    height: 100%;
+    height: 150%;
     width: 100%;
 }
 

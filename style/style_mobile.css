@@ -322,6 +322,7 @@ article {
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    overflow: hidden;
 }
 
 article p {
